@@ -34,3 +34,39 @@
     border: 1px solid white;
   }
 
+  .Suncreme {
+    position: fixed;
+    top: 25vh;
+    left: 10vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 8;
+  }
+
+  .weiter {
+    background-color: #e7e7e7; color: black;  
+    border: white;
+    color: black;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 15px;
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+    width: 10vw;
+    height: 8vh;
+    align-content: center;
+    z-index: 8;  
+  }
+
+  .weiter:hover {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .weiter img {
+      width: 50px;
+      height: 50px;
+      max-width: 50px;
+      align-content: center;
+  }
