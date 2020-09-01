@@ -29,11 +29,25 @@
     text-align: center;
 }
 
+
+
+.TimerIcon {
+    position: fixed;
+    top: 45vh;
+    left: 100%/2;
+    width: 100vw;
+    height: 30vh;
+    z-index: 7;
+    align-content: center;
+    max-width: 70%;
+}
+
 .wetter {
     position: fixed;
-    top: 5vh;
-    left: 5vw;
+    top: 2vh;
+    left: 0;
     width: 40vw;
     height: 15vh;
     text-align: center;
+    z-index: 1;
 }
