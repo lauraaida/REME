@@ -50,4 +50,6 @@
     height: 15vh;
     text-align: center;
     z-index: 1;
+    max-width: 50%;
+    max-height: auto;
 }
