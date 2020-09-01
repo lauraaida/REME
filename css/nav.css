@@ -32,7 +32,9 @@ body {
 
 img {
     max-width: 100%;
+        opacity: 0.3;
 }
+
 
 .nav-link img {
     max-width: 55px;
