@@ -11,7 +11,45 @@
 
 .Persona {
     position: fixed;
-    left: 20;
+    top: 30vh;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: 8;
+    text-align: center;
+   
+}
 
-    
+.uvindex {
+    position: fixed;
+    top: 5vh;
+    left: 50vw;
+    width: 40vw;
+    height: 15vh;
+    text-align: center;
+}
+
+
+
+.TimerIcon {
+    position: fixed;
+    top: 45vh;
+    left: 100%/2;
+    width: 100vw;
+    height: 30vh;
+    z-index: 7;
+    align-content: center;
+    max-width: 70%;
+}
+
+.wetter {
+    position: fixed;
+    top: 2vh;
+    left: 0;
+    width: 40vw;
+    height: 15vh;
+    text-align: center;
+    z-index: 1;
+    max-width: 50%;
+    max-height: auto;
 }
