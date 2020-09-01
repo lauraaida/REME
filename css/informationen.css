@@ -8,8 +8,25 @@
     z-index: 6;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 2.3rem;
 
+}
+
+.thema1,
+.thema2,
+.thema3,
+.thema4,
+.thema5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.bild {
+    max-width: 40px;
+    max-height: 40px;
 }
