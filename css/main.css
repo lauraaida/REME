@@ -46,10 +46,29 @@
     position: fixed;
     top: 2vh;
     left: 0;
-    width: 40vw;
+    width: 100vw;
     height: 15vh;
     text-align: center;
     z-index: 1;
-    max-width: 50%;
-    max-height: auto;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.wetter_icon {
+    width: 25vw;
+}
+.wetter_location {
+    width: 45vw;
+    text-align: left;
+}
+.wetter_uv {
+    width: 30vw;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.uv_header {
+    font-size: .8rem;
 }
