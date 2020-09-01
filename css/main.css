@@ -58,6 +58,9 @@
 .wetter_icon {
     width: 25vw;
 }
+.wetter_icon img {
+    border-radius: 15px;
+}
 .wetter_location {
     width: 45vw;
     text-align: left;
