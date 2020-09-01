@@ -1,23 +1,24 @@
 .top {
     position: fixed;
-    left:0;
+    left: 0;
     width: 100vw;
     height: 20vh;
-    top:0;
+    top: 0;
     z-index: 9;
     background: white;
-    border-radius: 0 0 0 0 ;
+    border-radius: 0 0 0 0;
 }
 
 .Persona {
     position: fixed;
+    left: 20;
     top: 30vh;
     left: 0;
     width: 100vw;
     height: 30vh;
     z-index: 8;
     text-align: center;
-   
+
 }
 
 .uvindex {
@@ -28,8 +29,6 @@
     height: 15vh;
     text-align: center;
 }
-
-
 
 .TimerIcon {
     position: fixed;
@@ -55,35 +54,27 @@
     align-items: center;
     flex-direction: row;
 }
+
 .wetter_icon {
     width: 25vw;
-}
-.wetter_icon img {
-    border-radius: 15px;
 }
 
 .wetter_location {
     width: 45vw;
     text-align: left;
 }
+
 .wetter_uv {
     width: 30vw;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .uv_header {
     font-size: .8rem;
-}
-
-/* countdown */
-
-.countdown-section {
-    margin: .4rem;
-}
-
-.countdown-row {
-  
+    max-width: 50%;
+    max-height: auto;
 
 }
