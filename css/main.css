@@ -61,6 +61,7 @@
 .wetter_icon img {
     border-radius: 15px;
 }
+
 .wetter_location {
     width: 45vw;
     text-align: left;
@@ -74,4 +75,15 @@
 }
 .uv_header {
     font-size: .8rem;
+}
+
+/* countdown */
+
+.countdown-section {
+    margin: .4rem;
+}
+
+.countdown-row {
+  
+
 }
