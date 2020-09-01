@@ -1,27 +1,46 @@
+.BGGradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(114, 218, 237, 1) 0%, rgba(137, 200, 136, 1) 100%);
+    border-radius: 0 0 0 0;
+}
+
 .inhalt {
     position: fixed;
     top: 0;
     left: 0;
-    height: 35vh;
+    height: 30vh;
     margin: 30px;
-    width: 100vw;
+    width: 100%;
     z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-weight: bold;
     font-size: 2.3rem;
+    box-sizing: border-box;
 
 }
 
 .link1,
 .link2,
 .link3 {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+
+
+
 }
 
 .bild {
-    max-width: 6%;
+    max-width: 40px;
+    max-height: 40px;
 }
