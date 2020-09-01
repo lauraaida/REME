@@ -11,7 +11,29 @@
 
 .Persona {
     position: fixed;
-    left: 20;
+    top: 30vh;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: 8;
+    text-align: center;
+   
+}
 
-    
+.uvindex {
+    position: fixed;
+    top: 5vh;
+    left: 50vw;
+    width: 40vw;
+    height: 15vh;
+    text-align: center;
+}
+
+.wetter {
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    width: 40vw;
+    height: 15vh;
+    text-align: center;
 }
