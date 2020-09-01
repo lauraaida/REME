@@ -2,7 +2,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'DINOT';
+}
+
+@font-face {
+    font-family: Beatrice-Light;
+    src: url(../Font/Beatrice-Light.woff);
 }
 
 body {
@@ -10,6 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: 'Beatrice-Light';
 
 }
 
