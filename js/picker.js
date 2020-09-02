@@ -11,7 +11,7 @@
         wheels: [                 // More info about wheels: https://docs.mobiscroll.com/4-10-6/javascript/scroller#opt-wheels
             [{
                 label: 'First wheel',
-                data: ['0', '1', '2', '3', '4', '5', '6', '7']
+                data: ['LSF 5', 'LSF 10', 'LSF 15', 'LSF 20', 'LSF 30', 'LSF 50', 'LSF +50']
             }]
         ]
     });
