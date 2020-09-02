@@ -140,6 +140,53 @@
     z-index: 10;
 }
 
+.sonnig {
+    position: fixed;
+    top: 36.5vh;
+    left: 65vw;
+    max-width: 25vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 10;
+    display: inline-block;
+}
+
+.sonnig:hover {
+    background: url("img/icons_sonnig_white.png");
+    z-index: 10;
+  }
+
+.halbschatten {
+    position: fixed;
+    top: 49vh;
+    left: 65vw;
+    max-width: 25vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 10;
+}
+
+.halbschatten:hover {
+    background: url("img/icons_halbschatten_white.png");
+    z-index: 10;
+  }
+
+
+.wolken {
+    position: fixed;
+    top: 63vh;
+    left: 65vw;
+    max-width: 25vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 10;
+}
+
+.wolken:hover {
+    background: url("img/icons_wolken_white.png");
+    z-index: 10;
+  }
+
 .halb {
     position: fixed;
     top: 55vh;
