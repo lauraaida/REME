@@ -60,7 +60,9 @@
 
 .MannFrau {
     max-width: 50%;
-    top: 10vh;
-align-content: center;
-    z-index: 11;
+    top: 150vh;
+    width: 70vw;
+    height: 1vh;
+    align-content: center;
+    z-index: 16;
 }
