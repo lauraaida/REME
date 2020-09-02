@@ -57,3 +57,10 @@
     padding: 7px;
     margin: 5px;
 }
+
+.MannFrau {
+    max-width: 50%;
+    top: 10vh;
+align-content: center;
+    z-index: 11;
+}

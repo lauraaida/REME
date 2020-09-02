@@ -62,4 +62,22 @@
     left: 14vw;
     width: 70vw;
     height: 30vh;
+<<<<<<< HEAD
+=======
+}
+
+.titel {
+    z-index: 8;
+    position: fixed;
+    top: 35vh;
+    left: 14vw;
+    width: 70vw;
+    height: 30vh;
+}
+
+
+* {
+    text-decoration: none;
+    color: black;
+>>>>>>> a39eabb1f93eded4823e23fb1dd8c74f5684d16e
 }
