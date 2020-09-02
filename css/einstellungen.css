@@ -16,11 +16,12 @@
 
 .titel {
     position: fixed;
+    font-size: 1.3rem;
     top: 12vh;
     left: 10vw;
-    width: 100vw;
-    height: 30vh;
-    z-index: 8;
+    width: 80vw;
+    height: 10vh;
+    z-index: 7;
 }
 
 .link1,
