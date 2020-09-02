@@ -1,6 +1,6 @@
 .inhalt {
     position: fixed;
-    top: 32vh;
+    top: 25vh;
     left: 0;
     height: 20vh;
     margin: 10px;
@@ -15,11 +15,12 @@
 }
 
 .titel {
-    top: 25vh;
     position: fixed;
-    align-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    top: 12vh;
+    left: 10vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 8;
 }
 
 .link1,
@@ -29,6 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    z-index: 10;
 
 }
 
@@ -37,7 +39,7 @@
     max-width: 40px;
     max-height: 40px;
     flex-direction: column;
-    z-index: 8;
+    z-index: 10;
 }
 
 .zurueck {
@@ -61,7 +63,7 @@
     height: 30vh;
 }
 
-.h1 {
+.titel {
     z-index: 8;
     position: fixed;
     top: 35vh;
