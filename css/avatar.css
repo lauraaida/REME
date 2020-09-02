@@ -1,0 +1,59 @@
+.Profil {
+    position: fixed;
+    top: 25vh;
+    left: 10vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 4;
+}
+
+.Profil-name {
+    position: fixed;
+    top: 30vh;
+    left: 10vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 12;
+}
+
+.Profil-Alter {
+    position: fixed;
+    top: 45vh;
+    left: 10vw;
+    width: 100vw;
+    height: 30vh;
+    z-index: 12;
+    
+}
+
+.Name-muster {
+    position: fixed;
+    top: 29vh;
+    left: 50vw;
+    width: 40vw;
+    height: 7vh;
+    z-index: 12;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+    border-width: 2px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.Alter-muster {
+    position: fixed;
+    top: 43vh;
+    left: 50vw;
+    width: 40vw;
+    height: 7vh;
+    z-index: 12;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12px;
+    border-width: 2px;
+    padding: 7px;
+    margin: 5px;
+}
