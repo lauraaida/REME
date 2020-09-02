@@ -81,3 +81,11 @@ align-content: center;
     top: 53vh;
     left: 28vw;
 }
+
+.Hauttyp {
+    position: fixed;
+    max-width: 50%;
+    z-index: 10;
+    top: 25vh;
+    left: width/2;
+}
