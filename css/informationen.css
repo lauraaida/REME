@@ -1,18 +1,27 @@
 .linkListe {
     position: fixed;
-    top: 20vh;
+    top: 35vh;
     left: 0;
-    height: 80vh;
-    margin: 30px;
+    height: 50vh;
+    margin: 10px;
     width: 100vw;
     z-index: 6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-weight: bold;
-    font-size: 2.3rem;
+    font-weight: regular;
+    font-size: 1.3rem;
 
 }
+
+.titel {
+    top: 25vh;
+    position: fixed;
+    align-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 .thema1,
 .thema2,
@@ -21,12 +30,15 @@
 .thema5 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-self: flex-start;
+    justify-content: space-around;
+
 }
 
 .bild {
+    display: flex;
     max-width: 40px;
     max-height: 40px;
+    flex-direction: column;
+
+
 }
