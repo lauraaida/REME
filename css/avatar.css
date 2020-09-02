@@ -59,10 +59,25 @@
 }
 
 .MannFrau {
-    max-width: 50%;
-    top: 150vh;
-    width: 70vw;
-    height: 1vh;
-    align-content: center;
-    z-index: 16;
+ position: fixed;
+ max-width: 50%;
+ top: 52vh;
+align-content: center;
+ z-index: 15;
+}
+
+.maennlich {
+    position: fixed;
+    max-width: 25%;
+    z-index: 14;
+    top: 53vh;
+    left: 50vw;
+}
+
+.weiblich {
+    position: fixed;
+    max-width: 25%;
+    z-index: 14;
+    top: 53vh;
+    left: 28vw;
 }
