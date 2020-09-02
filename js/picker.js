@@ -15,3 +15,14 @@
             }]
         ]
     });
+
+    mobiscroll.scroller('#demo-akt', {
+        display: 'inline',        // Specify display mode like: display: 'bottom' or omit setting to use default
+        layout: 'liquid',         // More info about layout: https://docs.mobiscroll.com/4-10-6/javascript/scroller#opt-layout
+        wheels: [                 // More info about wheels: https://docs.mobiscroll.com/4-10-6/javascript/scroller#opt-wheels
+            [{
+                label: 'First wheel',
+                data: ['Wandern', 'Rennen', 'div. Sport an Land', 'Relaxen', 'aktives Sonnenbaden', 'Schwimmen', 'Wassersport', 'Skifahren']
+            }]
+        ]
+    });
