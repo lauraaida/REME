@@ -59,10 +59,10 @@
     font-weight: bold;
     z-index: 8;
     position: fixed;
-    top: 35vh;
-    left: 14vw;
+    top: 25vh;
+    left: 20vw;
     width: 70vw;
-    height: 30vh;
+    height: 100vh;
 }
 
 * {
@@ -135,4 +135,16 @@
     position: fixed;
     top: 71vh;
     left: 32vw;
+}
+
+.kon {
+    position: fixed;
+    top: 25vh;
+    left: 20vw;
+}
+
+.dk {
+    position: fixed;
+    top: 40vh;
+    left: 20vw;
 }
