@@ -89,3 +89,61 @@ align-content: center;
     top: 25vh;
     left: width/2;
 }
+
+.Hautscanner {
+    position: fixed;
+    max-width: 50%;
+    z-index: 12;
+    top: 48vh;
+    left: width/2;
+}
+
+.Hauttyp_icon {
+    position: fixed;
+    max-width: 60%;
+    z-index: 13;
+    top: 50vh;
+    left: width/2;
+}
+
+.Augenfarbe {
+    position: fixed;
+    max-width: 50%;
+    z-index: 15;
+    top: 25vh;
+    left: width/2;
+}
+
+.Haarfarbe-icon {
+    position: fixed;
+    max-width: 50%;
+    z-index: 15;
+    top: 30vh;
+    left: 0vw;
+}
+
+.avatar-button {
+    background-color: #e7e7e7; color: black;  
+    border: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.avatar-button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .braun {
+    position: fixed;
+    max-width: 50%;
+    z-index: 15;
+    top: 50vh;
+    left: 10vw;
+  }
